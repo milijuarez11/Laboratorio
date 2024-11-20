@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+## ATENCION: Debe colocar la direccion en la que ha sido publicada la aplicacion en la siguiente linea\
+# url = 'https://tp8-58758.streamlit.app/'
 # Función para mostrar información del alumno
 def mostrar_informacion_alumno():
     with st.container():
