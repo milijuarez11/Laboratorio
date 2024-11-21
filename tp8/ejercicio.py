@@ -7,8 +7,7 @@ import matplotlib.pyplot as plt
 # url = 'https://tp8-58758.streamlit.app/'
 # Función para mostrar información del alumno
 def mostrar_informacion_alumno():
-    with st.container():
-        st.markdown("### Por favor, sube un archivo CSV desde la barra lateral.")
+    with st.container(border=True):
         st.markdown("#### **Legajo:** 58758")
         st.markdown("#### **Nombre:** Milagro Juarez")
         st.markdown("#### **Comisión:** C5")
